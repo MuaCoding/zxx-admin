@@ -1,0 +1,27 @@
+.login-panel {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 345px;
+  padding: 25px 40px 15px 40px;
+  background-color: #ffffff;
+  border-radius: 2px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+  transform: translate(-50%, -60%);
+
+  > h1 {
+    line-height: 50px;
+    text-align: center;
+    color: #515a6e;
+  }
+
+
+  > form {
+    padding-top: 15px;
+
+    .btn-group {
+      text-align: center;
+    }
+  }
+
+}

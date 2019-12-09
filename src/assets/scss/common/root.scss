@@ -1,0 +1,85 @@
+body ::-webkit-scrollbar,
+html ::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+  background-color: #fff;
+  overflow: auto;
+}
+
+body ::-webkit-scrollbar-thumb,
+html ::-webkit-scrollbar-thumb {
+  background-color: #cccccc;
+  border-radius: 4px;
+}
+
+body ::-webkit-scrollbar-track,
+html ::-webkit-scrollbar-track {
+  background-color: #eee;
+}
+
+body ::selection,
+html ::selection {
+  background: #ddd;
+  color: #333;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+body,
+html {
+  font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #515a6e;
+  background-color: #fff;
+  -webkit-font-smoothing: antialiased;
+  background: #f5f7f9;
+}
+
+article,
+aside,
+blockquote,
+body,
+button,
+dd,
+details,
+div,
+dl,
+dt,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+hr,
+input,
+legend,
+li,
+menu,
+nav,
+ol,
+p,
+section,
+td,
+textarea,
+th,
+ul {
+  margin: 0;
+  padding: 0;
+}
